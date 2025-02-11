@@ -1,4 +1,3 @@
-import * as React from 'react';
 import { motion } from 'framer-motion';
 
 import { useEffect, useState } from 'react'; // Import useState
@@ -323,7 +322,7 @@ Translated with DeepL.com (free version)                </p>
               <span>See My Updates On Github</span>
             </a>
           </section>
-          <section className="flex flex-col w-full gap-8 justify-center items-end max-[850px]:w-1/2 md:mt-10 max-[850px]:w-full">
+          <section className="flex flex-col w-full gap-8 justify-center items-end  md:mt-10 max-[850px]:w-full">
             <div className="flex row justify-start gap-5 max-sm-[300px]:m-0 ">
               {socialLinks.map((link, index) => (
                 <SocialLink   key={index} {...link} />
