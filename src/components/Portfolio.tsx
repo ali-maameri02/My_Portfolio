@@ -116,7 +116,7 @@ export function Portfolio() {
   return (
     <div className="flex items-center flex-col bg-white overflow-hidden">
       {/* Navbar */}
-      <Slide direction="down" className='z-[60] fixed top-0 w-full h-full max-sm:top-[-5px]'>
+      <Slide direction="down" className='z-[60]  top-0 w-full h-full max-sm:top-[-5px]'>
       <nav className="flex gap-3 z-[70] w-full   items-center px-4 py-2 font-bold bg-white fixed top-0 md:px-36" style={{boxShadow:'0px 0px 5px 1px rgba(0, 0, 0, 0.5)'}}>
         <div className="flex w-full items-center flex-col self-stretch pb-1 my-auto text-3xl text-slate-700">
           <div className="flex items-center pb-1 w-full max-w-full">
