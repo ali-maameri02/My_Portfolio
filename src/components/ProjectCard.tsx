@@ -17,10 +17,10 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({ number, website, proje
         alt="Project icon"
         className="object-contain shrink-0 w-6 aspect-square"
       />
-      <div className={`grow shrink text-base ${textClasses} w-[201px]`}>
+      <div className={`grow shrink text-base ${textClasses} w-[201px] z-[60]`}>
         Website:
         <br />
-        <span className="font-bold"><a href={website}>{website}</a></span>
+        <span className="font-bold z-[80]"><a href={website}>{website}</a></span>
         <br />
         <br />
         Project name:

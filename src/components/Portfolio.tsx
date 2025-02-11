@@ -328,8 +328,9 @@ Translated with DeepL.com (free version)                </p>
                 <SocialLink   key={index} {...link} />
               ))}
             </div>
-            <div className="flex w-full flex-row flex-wrap items-end gap-5 mt-10 max-sm-[300px]:mt-3" id='work'>
+            <div className="flex w-full flex-row flex-wrap items-end gap-5 mt-10 max-sm-[300px]:mt-3 " id='work'>
               {projectsData.map((project, index) => (
+                
                 <ProjectCard key={index} {...project} />
               ))}
             </div>
